@@ -1,0 +1,29 @@
+{
+    "name": "cesarv/silex-skeleton",
+    "description": "Silex Skeleton",
+    "homepage": "https://github.com/cesar-v/silex-skeleton",
+    "keywords": ["silex", "skeleton", "boilerplate"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cesar Vega",
+            "email": "cesar.binary@gmail.com",
+            "homepage": "https://github.com/cesar-v"
+        }
+    ],
+    "require": {
+        "silex/silex": "~1.2",
+        "cesarv/silex-service-providers": "~1.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
